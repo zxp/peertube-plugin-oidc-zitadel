@@ -1,0 +1,36 @@
+{
+  "name": "peertube-plugin-oidc-zitadel",
+  "version": "1.0.4",
+  "description": "Add Zitadel OpenID connect support to login form in PeerTube.",
+  "licence": "AGPL-3.0-only",
+  "engine": {
+    "peertube": ">=2.2.0"
+  },
+  "keywords": [
+    "peertube",
+    "plugin",
+    "auth"
+  ],
+  
+  "homepage": "https://pt.app.sccncd.com/",
+  "author": "Marco Spasiano",
+  "bugs": "https://pt.app.sccncd.com/",
+  "library": "./main.js",
+  "staticDirs": {},
+  "css": [],
+  "clientScripts": [
+    {
+      "script": "client/login-client-plugin.js",
+      "scopes": [
+        "login"
+      ]
+    }
+  ],
+  "translations": {},
+  "dependencies": {
+    "openid-client": "^5.1.1"
+  },
+  "devDependencies": {
+    "@peertube/peertube-types": "^4.0.0-beta.4"
+  }
+}
