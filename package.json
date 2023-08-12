@@ -1,6 +1,6 @@
 {
   "name": "peertube-plugin-oidc-zitadel",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Add Zitadel OpenID connect support to login form in PeerTube.",
   "licence": "AGPL-3.0-only",
   "engine": {
