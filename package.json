@@ -12,9 +12,9 @@
     "auth"
   ],
   
-  "homepage": "https://pt.app.sccncd.com/",
-  "author": "Marco Spasiano",
-  "bugs": "https://pt.app.sccncd.com/",
+  "homepage": "https://github.com/zxp/peertube-plugin-oidc-zitadel",
+  "author": "zxp",
+  "bugs": "https://github.com/zxp/peertube-plugin-oidc-zitadel/issues",
   "library": "./main.js",
   "staticDirs": {},
   "css": [],
