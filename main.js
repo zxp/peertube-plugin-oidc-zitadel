@@ -257,7 +257,7 @@ async function loadSettingsAndCreateClient (registerExternalAuth, unregisterExte
     },
     onLogout: (user, req) => {
       const logoutUrl = store.client.endSessionUrl({
-        redirect_uri: store.logoutRedirectUrl
+        post_logout_redirect_uri: store.logoutRedirectUrl
       });
       return logoutUrl;
     }
